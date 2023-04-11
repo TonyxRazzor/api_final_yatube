@@ -35,7 +35,11 @@ python3 -m venv env
 ```
 
 ```bash
-source env/bin/activate
+# для OS Lunix и MacOS
+source venv/bin/activate
+
+# для OS Windows
+source venv/Scripts/activate
 ```
 
 - Установить зависимости из файла requirements.txt:
